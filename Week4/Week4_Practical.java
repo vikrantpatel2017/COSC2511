@@ -11,6 +11,7 @@ public class Week4_Practical {
         /* 
 
         // try {
+        //Week 4 practical
         // int value1, value2; //initialising variables value 1 and value2
         // Scanner myScanner = new Scanner(System.in); //creating the new instance of
         // the scanner class
