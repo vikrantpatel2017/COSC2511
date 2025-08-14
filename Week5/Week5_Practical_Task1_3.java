@@ -11,12 +11,18 @@ public class Week5_Practical_Task1_3 {
 
         int runningTotal = 0;
         int temp;
+        int howmanytimes = 0;
 
-        for (int i = 1; i <= 4 ; i++) {
+        System.out.println("Hey user! How many numbers you want to enter to find out the total:");
+        howmanytimes = myScanner.nextInt();
+
+        int i = 1;
+        while (i <= howmanytimes) {
             System.out.println("Hey user, enter the " + i + "th number: ");
             temp = myScanner.nextInt();
             runningTotal = runningTotal + temp;
             System.out.println("Running total = "+runningTotal);
+            i++;
         }
 
         System.out.println("Final Toal = "+runningTotal);
